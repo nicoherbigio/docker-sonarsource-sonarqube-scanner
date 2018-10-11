@@ -1,6 +1,6 @@
 FROM nicoherbigio/debian:stretch
 
-LABEL vendor="Nico Herbig <nico@nicoherbig.io>"
+LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 
 # Add SonarQube Sonar Scanner user and group to ensure that the IDs (UID and GID)
