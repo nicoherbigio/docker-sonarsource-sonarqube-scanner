@@ -1,4 +1,4 @@
-# SonarQube Scanner
+# SonarSource SonarQube Scanner
 
 ## Copyleft
 
