@@ -23,7 +23,7 @@ RUN set -ex \
 # Install Node for scanning of CSS, JavaScript and Typescript files
 
 RUN set -ex \
-    && curl -fSL https://deb.nodesource.com/setup_8.x | bash - \
+    && curl -fSL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y --no-install-recommends build-essential nodejs \
     && rm -rf /var/lib/apt/lists/*
 
