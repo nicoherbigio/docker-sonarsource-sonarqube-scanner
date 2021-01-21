@@ -1,4 +1,4 @@
-FROM nicoherbigio/debian:buster
+FROM nicoherbigde/debian:buster
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
