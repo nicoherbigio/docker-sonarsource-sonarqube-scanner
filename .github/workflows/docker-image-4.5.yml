@@ -11,7 +11,9 @@ env:
   DOCKER_IMAGE_CONTEXT_PATH: 4.5/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/sonarsource-sonarqube-scanner:4.5
+    nicoherbigio/sonarsource-sonarqube-scanner:4.5
     nicoherbigde/sonarsource-sonarqube-scanner:4.5.0
+    nicoherbigio/sonarsource-sonarqube-scanner:4.5.0
 
 jobs:
   build-and-push:
