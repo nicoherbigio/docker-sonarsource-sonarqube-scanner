@@ -30,7 +30,7 @@ RUN set -ex \
 
 # Install SonarSource SonarQube Scanner
 
-ARG SONARQUBE_SCANNER_VERSION=4.5.0.2216-linux
+ARG SONARQUBE_SCANNER_VERSION=4.6.0.2311-linux
 ARG SONARQUBE_SCANNER_DOWNLOAD_URL=https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${SONARQUBE_SCANNER_VERSION}.zip
 
 ARG SONARQUBE_SCANNER_HOME_DIR=/opt/sonarqube/sonar-scanner

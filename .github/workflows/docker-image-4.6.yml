@@ -1,4 +1,4 @@
-name: Docker Image CI for version 4.5
+name: Docker Image CI for version 4.6
 
 on:
   push:
@@ -8,12 +8,12 @@ on:
     - cron: '0 2 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 4.5/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 4.6/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/sonarsource-sonarqube-scanner:4.5
-    nicoherbigio/sonarsource-sonarqube-scanner:4.5
-    nicoherbigde/sonarsource-sonarqube-scanner:4.5.0
-    nicoherbigio/sonarsource-sonarqube-scanner:4.5.0
+    nicoherbigde/sonarsource-sonarqube-scanner:4.6
+    nicoherbigio/sonarsource-sonarqube-scanner:4.6
+    nicoherbigde/sonarsource-sonarqube-scanner:4.6.0
+    nicoherbigio/sonarsource-sonarqube-scanner:4.6.0
 
 jobs:
   build-and-push:
