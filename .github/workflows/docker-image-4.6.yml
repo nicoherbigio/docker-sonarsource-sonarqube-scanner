@@ -12,8 +12,8 @@ env:
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/sonarsource-sonarqube-scanner:4.6
     nicoherbigio/sonarsource-sonarqube-scanner:4.6
-    nicoherbigde/sonarsource-sonarqube-scanner:4.6.1
-    nicoherbigio/sonarsource-sonarqube-scanner:4.6.1
+    nicoherbigde/sonarsource-sonarqube-scanner:4.6.2
+    nicoherbigio/sonarsource-sonarqube-scanner:4.6.2
 
 jobs:
   build-and-push:
